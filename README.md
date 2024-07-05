@@ -15,7 +15,7 @@ This repository showcases various projects developed to enhance my skills in dea
 - `HAL/`: Hardware Abstraction Layer implementation
 - `MCAL/`: Microcontroller Abstraction Layer implementation
 - `Simulator/`: schematic design of the project for validation
-- `Debug/`: elf file to be flashed
+- `Debug/`: .elf file to be flashed
 
 ### Setting Up the Development Environment
 
