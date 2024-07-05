@@ -1,6 +1,6 @@
 # AVR Mini Projects
 
-This repository showcases various projects developed to enhance my skills in dealing with 8-bit microcontrollers like the AVR. It includes implementations of drivers for microcontroller peripherals and some easy applications.
+This repository presents various projects developed to enhance my skills in dealing with 8-bit microcontrollers such as the ATmega32. It includes implementations of drivers for microcontroller peripherals and some simple applications.
 
 ## Projects List
 1. Stop Watch
