@@ -9,18 +9,18 @@ This repository showcases various projects developed to enhance my skills in dea
 The repository is organized as follows:
 AVR-Mini-Projects/
 ├── ProjectName/
-│ ├── src/ [Contains the main function and the appication code, from here the code starts]
+│ ├── src/ *Contains the main function and the application code, from here the code starts*
 │ │ ├── main.c 
-│ ├── Common/ [Contains the types of target and common useful macros]
+│ ├── Common/ *Contains the types of target and common useful macros*
 │ │ ├── common_macros.h/ 
 │ │ ├── std_types.h/
-│ ├── HAL/ [Contains the implementation of Hardware Abstraction Layer]
+│ ├── HAL/ *Contains the implementation of Hardware Abstraction Layer*
 │ │ ├── ex: Dc_Motor/
-│ ├── MCAL/ [Contains the implementation of Micocontroller Abstraction Layer]
+│ ├── MCAL/ *Contains the implementation of Microcontroller Abstraction Layer*
 │ │ ├── Makefile
-│ ├── Simulator/ [Contains the schematic design of the project for validation]
+│ ├── Simulator/ *Contains the schematic design of the project for validation*
 │ │ ├── README.md
-│ ├── Debug/ [Contains the elf file to be flashed]
+│ ├── Debug/ *Contains the elf file to be flashed*
 │ │ ├── test_module1.c
 
 ### Getting Started
@@ -40,7 +40,7 @@ AVR-Mini-Projects/
 
 3. Clone the repository:
     ```
-    git clone [https://github.com/your-username/ATmega32-Project.git](https://github.com/yourusername/AVR-Mini-Projects.git)
+    git clone https://github.com/hussein-shamy/AVR-mini-projects.git
     cd AVR-mini-projects
     ```
 4. Build the project:
