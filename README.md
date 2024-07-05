@@ -4,31 +4,20 @@ This repository showcases various projects developed to enhance my skills in dea
 
 ## How to Use the Repository
 
-### Folder Structure
-
-The repository is organized as follows:
-AVR-Mini-Projects/
-├── ProjectName/
-│ ├── src/ *Contains the main function and the application code, from here the code starts*
-│ │ ├── main.c 
-│ ├── Common/ *Contains the types of target and common useful macros*
-│ │ ├── common_macros.h/ 
-│ │ ├── std_types.h/
-│ ├── HAL/ *Contains the implementation of Hardware Abstraction Layer*
-│ │ ├── ex: Dc_Motor/
-│ ├── MCAL/ *Contains the implementation of Microcontroller Abstraction Layer*
-│ │ ├── Makefile
-│ ├── Simulator/ *Contains the schematic design of the project for validation*
-│ │ ├── README.md
-│ ├── Debug/ *Contains the elf file to be flashed*
-│ │ ├── test_module1.c
-
-### Getting Started
-
 ### Prerequisites
 - AVR-GCC
 - Make
 - avrdude (for flashing the microcontroller)
+
+### Directory Structure
+- `src/`: application code/ main function
+- `Common/`: types of target and common useful macros
+- `HAL/`: Hardware Abstraction Layer implementation
+- `MCAL/`: Microcontroller Abstraction Layer implementation
+- `Simulator/`: schematic design of the project for validation
+- `Debug/`: elf file to be flashed
+
+### Setting Up the Development Environment
 
 1. Install AVR-GCC:
     - On Debian/Ubuntu: `sudo apt-get install gcc-avr avr-libc`
@@ -51,4 +40,3 @@ AVR-Mini-Projects/
     ```
     make flash
     ```
-
